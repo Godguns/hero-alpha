@@ -1,0 +1,10 @@
+<div>
+    <!--button-->
+    <button>按钮</button>
+    <div id="container">
+        <h1>[sword]</h1>
+    </div>
+</div>
+<HeroScript>
+    
+</HeroScript>
