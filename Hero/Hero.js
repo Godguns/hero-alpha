@@ -1,10 +1,11 @@
-class Saber{
+ module.exports =class Saber{
     constructor(){
        this.startTagReg  =/^<([a-zA-Z0-9\-]+)(?:([ ]+[a-zA-Z0-9\-]+=[^> ]+))*>/;
        this.endTagReg = /^<\/([a-zA-Z0-9\-]+)>/;
        this.commentReg  =/^<!\-\-[^(-->)]*\-\->/;
        this.docTypeReg = /^<!doctype [^>]+>/;
        this.attributeReg =  /^(?:[ ]+([a-zA-Z0-9\-]+=[^>]+))/;
+       console.log(">>")
     }
     parse(html, options) {
         function advance(num) {
