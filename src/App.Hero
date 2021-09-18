@@ -6,8 +6,8 @@
         </div>
     </Fragment>
     <HeroScript>
-        let co = 1;
-        let sword = 0;
+        rec co = 1;
+        rec sword = 0;
         setTimeout(()=>{
             sword++;
             console.log(sword)
