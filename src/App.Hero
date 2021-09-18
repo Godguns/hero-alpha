@@ -2,11 +2,17 @@
     <Fragment>
         <button>按钮</button>
         <div id="app">
-            <h1>[sword]</h1>
+            <h1>[sword]</h1><!-- data-binding -->
             <input hssaber="sword" type="text">
         </div>
     </Fragment>
     <HeroScript>
+            let aSword='aa';
+            var ASword={
+                v:'v',
+                k:'k'
+            };
+            console.log("template render test...")
             vst sword:'hello world';
             vst person:{ one:"0"};
     </HeroScript>
