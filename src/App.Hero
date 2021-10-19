@@ -6,7 +6,7 @@
             <input hssaber="sword" type="text">
         </div>
     </Fragment>
-    <HeroScript>
+    <Script type="hero.js">
             let aSword='aa';
             var ASword={
                 v:'v',
@@ -15,4 +15,4 @@
             console.log("template render test...")
             vst sword:'hello world';
             vst person:{ one:"0"};
-    </HeroScript>
+    </Script>
