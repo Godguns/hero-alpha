@@ -6,7 +6,7 @@
             <input hssaber="sword" type="text">
         </div>
     </Fragment>
-    <Script type="hero.js">
+    <Script type="Hero">
             let aSword='aa';
             var ASword={
                 v:'v',
